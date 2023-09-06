@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta name="description" content="My Portfolio Website" />
+    <meta name="keywords" content="web design, html, css, js" />
+    <title>Portfolio Website</title>
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
@@ -25,7 +27,11 @@
           </li>
           <li class="header__line"></li>
           <li>
-            <button id="theme-toggle" class="header__sun">
+            <button
+              aria-label="theme-toggle btn"
+              id="theme-toggle"
+              class="header__sun"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -46,7 +52,7 @@
           </li>
         </ul>
 
-        <button class="header__bars">
+        <button aria-label="mobile nav btn" class="header__bars">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -77,7 +83,11 @@
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
-            <button id="theme-toggle" class="mobile-nav__sun">
+            <button
+              aria-label="theme-toggle btn"
+              id="theme-toggle"
+              class="mobile-nav__sun"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -160,7 +170,11 @@
         <h3 class="featured__subtitle">Featured project</h3>
         <div class="featured__wrapper">
           <h2 class="featured__title">graboga.pl</h2>
-          <a href="#" class="featured__link">
+          <a
+            aria-label="link featured projects"
+            href="#"
+            class="featured__link"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
