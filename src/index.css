@@ -1,3 +1,21 @@
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
 :root {
   --clr-dark: #393e46;
   --clr-light: #f1f1e9;
@@ -12,6 +30,16 @@
     #88ee86,
     #f9f871
   );
+
+  --font-sm: 0.775rem;
+  --font-md: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+  --font-2xl: 1.75rem;
+  --font-3xl: 2rem;
+  --font-4xl: 2.5rem;
+  --font-5xl: 3rem;
+  --font-10xl: 10rem;
 }
 
 * {
@@ -20,8 +48,30 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "General Sans", sans-serif;
   background: var(--clr-dark);
   color: var(--clr-light);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-light);
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0.25em;
+  color: var(--clr-light);
+  text-transform: uppercase;
+  font-size: var(--font-md);
 }
