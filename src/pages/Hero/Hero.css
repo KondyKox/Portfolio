@@ -70,7 +70,7 @@
 
 .hero__link img:hover {
   border-radius: 10px;
-  filter: drop-shadow(0 0 0.5em var(--clr-blue));
+  filter: drop-shadow(0 0 0.5em var(--clr-aqua));
 }
 
 /* md */
@@ -84,14 +84,25 @@
   }
 
   .hero__subtitle {
-    font-size: var(--font-5xl);
+    font-size: var(--font-3xl);
   }
 
   .hero__title {
-    font-size: var(--font-7xl);
+    font-size: var(--font-5xl);
   }
 
   .hero__link img {
     max-width: 3.5em;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .hero__subtitle {
+    font-size: var(--font-4xl);
+  }
+
+  .hero__title {
+    font-size: var(--font-6xl);
   }
 }
