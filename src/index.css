@@ -66,12 +66,3 @@ a {
   text-decoration: none;
   color: var(--clr-light);
 }
-
-button {
-  background: none;
-  border: none;
-  padding: 0.25em;
-  color: var(--clr-light);
-  text-transform: uppercase;
-  font-size: var(--font-md);
-}

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Navbar.css";
 import i18n from "../../i18n";
+import Button from "./Button/Button";
 
 const Navbar = ({ t, language, setLanguage }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -31,13 +32,18 @@ const Navbar = ({ t, language, setLanguage }) => {
       {/* Mobile navbar */}
       {windowWidth <= 768 ? (
         <>
-          <button className="nav__btn" onClick={handleToggleMenu}>
-            ☰
-          </button>
+          <Button
+            text={"☰"}
+            className={"nav__btn"}
+            onClick={handleToggleMenu}
+          />
           {isMenuOpen && windowWidth < 768 ? (
             <nav className="mobile__nav">
               <div className="nav__items">
                 <ul className="nav__items-list">
+                  <li className="nav__item">
+                    <a href="#">{t("navbar.home")}</a>
+                  </li>
                   <li className="nav__item">
                     <a href="#">{t("navbar.about")}</a>
                   </li>
@@ -71,6 +77,9 @@ const Navbar = ({ t, language, setLanguage }) => {
         <nav>
           <div className="nav__items">
             <ul className="nav__items-list">
+              <li className="nav__item">
+                <a href="#">{t("navbar.home")}</a>
+              </li>
               <li className="nav__item">
                 <a href="#">{t("navbar.about")}</a>
               </li>

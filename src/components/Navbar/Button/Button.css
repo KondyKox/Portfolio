@@ -1,0 +1,16 @@
+.btn {
+  background: none;
+  border: none;
+  padding: 0.25em;
+  color: var(--clr-light);
+  text-transform: uppercase;
+  font-size: var(--font-md);
+}
+
+.nav__btn {
+  position: fixed;
+  top: 0;
+  font-size: var(--font-lg);
+  margin: 1em;
+  z-index: 999;
+}
