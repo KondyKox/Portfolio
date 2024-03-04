@@ -10,7 +10,7 @@ const About = ({ t }) => {
         <p className="about__description">{t("about.description.skills")}</p>
         <p className="about__description">{t("about.description.goals")}</p>
         <p className="about__description">{t("about.description.contact")}</p>
-        
+
         <Title text={t("about.tech")} parentClass="about" isSubtitle={true} />
         <div className="about__ul-container">
           <ul className="about__ul">
@@ -25,7 +25,7 @@ const About = ({ t }) => {
         </div>
       </div>
       <div className="about__img">
-        <img src="./about.png" alt="Profile picture" />
+        <img src="./about.png" alt="Profile picture" loading="lazy" />
       </div>
     </section>
   );
