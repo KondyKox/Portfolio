@@ -1,8 +1,17 @@
 {
   "navbar": {
-    "home": "Home",
     "about": "About",
     "projects": "Projects",
     "contact": "Contact"
+  },
+  "about": {
+    "title": "About",
+    "description": {
+      "intro": "Hello! I'm Konrad, a young and ambitious Junior Web / Frontene Developer with a passion for creating beautiful and functional websites and webapps. I have a solid foundation in web programming and a keen desire for continuous learning and growth.",
+      "skills": "I have experience in front-end technologies such as HTML, CSS, and JavaScript, and in using popular libraries and frameworks, including React.js. I'm capable of building responsive websites that provide excellent user experiences across various devices.",
+      "goals": "My career goals include participating in projects that allow me to develop as a developer, gaining knowledge about industry best practices, and applying my passion and creativity to create innovative web solutions.",
+      "contact": "If you're looking for an energetic and capable Junior Web Developer ready to contribute to your projects, I'd love to hear from you!"
+    },
+    "tech": "Technologies"
   }
 }

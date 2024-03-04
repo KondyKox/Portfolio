@@ -3,6 +3,7 @@ import { I18nextProvider, useTranslation } from "react-i18next";
 import i18n from "./i18n";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./pages/Hero/Hero";
+import About from "./pages/About/About";
 
 // Get language from local storage
 const getLanguage = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <Navbar t={t} language={language} setLanguage={setLanguage} />
       <main>
         <Hero />
+        <About t={t} />
       </main>
     </I18nextProvider>
   );

@@ -1,8 +1,18 @@
 {
   "navbar": {
-    "home": "Strona główna",
     "about": "O mnie",
     "projects": "Projekty",
     "contact": "Kontakt"
+  },
+
+  "about": {
+    "title": "O mnie",
+    "description": {
+      "intro": "Cześć! Jestem Konrad, młody i ambitny Junior Web / Frontend Developer z pasją do tworzenia pięknych i funkcjonalnych stron internetowych i aplikacji webowych. Mam solidne podstawy w programowaniu webowym oraz chęć ciągłego rozwoju i nauki.",
+      "skills": "Posiadam doświadczenie w technologiach front-endowych, takich jak HTML, CSS i JavaScript, oraz w korzystaniu z popularnych bibliotek i frameworków, w tym React.js. Jestem zdolny do tworzenia responsywnych stron internetowych, które zapewniają doskonałe wrażenia użytkownika na różnych urządzeniach.",
+      "goals": "Moje cele zawodowe obejmują udział w projektach, które pozwalają mi rozwijać się jako programista, zdobywanie wiedzy na temat najlepszych praktyk branżowych oraz wkładanie swojej pasji i kreatywności w tworzenie innowacyjnych rozwiązań webowych.",
+      "contact": "Jeśli szukasz energicznego i zdolnego Junior Web Developera, gotowego do zaangażowania się w Twoje projekty, to skontaktuj się ze mną, a na pewno nie pożałujesz!"
+    },
+    "tech": "Technologie"
   }
 }
