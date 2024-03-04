@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { I18nextProvider, useTranslation } from "react-i18next";
 import i18n from "./i18n";
-import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./pages/Hero/Hero";
 
 // Get language from local storage
 const getLanguage = () => {
@@ -23,6 +23,9 @@ const App = () => {
   return (
     <I18nextProvider i18n={i18n}>
       <Navbar t={t} language={language} setLanguage={setLanguage} />
+      <main>
+        <Hero />
+      </main>
     </I18nextProvider>
   );
 };

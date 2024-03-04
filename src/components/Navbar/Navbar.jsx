@@ -42,9 +42,6 @@ const Navbar = ({ t, language, setLanguage }) => {
               <div className="nav__items">
                 <ul className="nav__items-list">
                   <li className="nav__item">
-                    <a href="#">{t("navbar.home")}</a>
-                  </li>
-                  <li className="nav__item">
                     <a href="#">{t("navbar.about")}</a>
                   </li>
                   <li className="nav__item">
@@ -77,9 +74,6 @@ const Navbar = ({ t, language, setLanguage }) => {
         <nav>
           <div className="nav__items">
             <ul className="nav__items-list">
-              <li className="nav__item">
-                <a href="#">{t("navbar.home")}</a>
-              </li>
               <li className="nav__item">
                 <a href="#">{t("navbar.about")}</a>
               </li>
