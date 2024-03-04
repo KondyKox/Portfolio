@@ -18,12 +18,6 @@
   background: var(--clr-green);
 }
 
-.about__title {
-  font-size: var(--font-2xl);
-  color: var(--clr-green);
-  padding: 0.5em;
-}
-
 .about__content {
   display: flex;
   flex-direction: column;
@@ -75,10 +69,6 @@
 
 /* md */
 @media (min-width: 768px) {
-  .about__title {
-    font-size: var(--font-3xl);
-  }
-
   .about__subtitle {
     font-size: var(--font-xl);
   }

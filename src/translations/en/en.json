@@ -4,6 +4,7 @@
     "projects": "Projects",
     "contact": "Contact"
   },
+
   "about": {
     "title": "About",
     "description": {
@@ -13,5 +14,9 @@
       "contact": "If you're looking for an energetic and capable Junior Web Developer ready to contribute to your projects, I'd love to hear from you!"
     },
     "tech": "Technologies"
+  },
+
+  "work": {
+    "title": "Projects"
   }
 }

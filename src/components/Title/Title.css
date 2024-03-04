@@ -1,0 +1,23 @@
+.title {
+  font-size: var(--font-2xl);
+  color: var(--clr-green);
+  padding: 0.5em;
+}
+
+.subtitle {
+  font-size: var(--font-lg);
+  padding: 0.25em;
+  margin-top: 1em;
+  color: var(--clr-green);
+}
+
+/* md */
+@media (min-width: 768px) {
+  .title {
+    font-size: var(--font-3xl);
+  }
+
+  .subtitle {
+    font-size: var(--font-xl);
+  }
+}
