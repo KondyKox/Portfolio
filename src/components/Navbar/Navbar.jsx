@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Navbar.css";
 import i18n from "../../i18n";
-import Button from "./Button/Button";
+import Button from "../Button/Button";
 
 const Navbar = ({ t, language, setLanguage }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
