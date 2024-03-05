@@ -48,4 +48,23 @@
   .subtitle {
     font-size: var(--font-xl);
   }
+
+  .hero__subtitle {
+    font-size: var(--font-3xl);
+  }
+
+  .hero__title {
+    font-size: var(--font-5xl);
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .hero__subtitle {
+    font-size: var(--font-4xl);
+  }
+
+  .hero__title {
+    font-size: var(--font-6xl);
+  }
 }

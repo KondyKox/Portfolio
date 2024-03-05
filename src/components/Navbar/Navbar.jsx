@@ -42,13 +42,13 @@ const Navbar = ({ t, language, setLanguage }) => {
               <div className="nav__items">
                 <ul className="nav__items-list">
                   <li className="nav__item">
-                    <a href="#">{t("navbar.about")}</a>
+                    <a href="#about">{t("navbar.about")}</a>
                   </li>
                   <li className="nav__item">
-                    <a href="#">{t("navbar.projects")}</a>
+                    <a href="#work">{t("navbar.projects")}</a>
                   </li>
                   <li className="nav__item">
-                    <a href="#">{t("navbar.contact")}</a>
+                    <a href="#contact">{t("navbar.contact")}</a>
                   </li>
                 </ul>
               </div>
@@ -75,13 +75,13 @@ const Navbar = ({ t, language, setLanguage }) => {
           <div className="nav__items">
             <ul className="nav__items-list">
               <li className="nav__item">
-                <a href="#">{t("navbar.about")}</a>
+                <a href="#about">{t("navbar.about")}</a>
               </li>
               <li className="nav__item">
-                <a href="#">{t("navbar.projects")}</a>
+                <a href="#work">{t("navbar.projects")}</a>
               </li>
               <li className="nav__item">
-                <a href="#">{t("navbar.contact")}</a>
+                <a href="#contact">{t("navbar.contact")}</a>
               </li>
             </ul>
           </div>

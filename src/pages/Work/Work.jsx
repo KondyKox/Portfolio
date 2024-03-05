@@ -32,7 +32,7 @@ const Work = ({ t }) => {
   };
 
   return (
-    <section className="work container">
+    <section id="work" className="work container">
       <Title text={t("work.title")} parentClass="work" />
       <div className="work__projects-container">
         <div className="main__project">

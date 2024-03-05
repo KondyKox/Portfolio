@@ -63,26 +63,7 @@
     max-width: 20em;
   }
 
-  .hero__subtitle {
-    font-size: var(--font-3xl);
-  }
-
-  .hero__title {
-    font-size: var(--font-5xl);
-  }
-
   .hero__link img {
     max-width: 3.5em;
-  }
-}
-
-/* lg */
-@media (min-width: 1024px) {
-  .hero__subtitle {
-    font-size: var(--font-4xl);
-  }
-
-  .hero__title {
-    font-size: var(--font-6xl);
   }
 }
