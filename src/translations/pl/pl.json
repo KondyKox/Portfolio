@@ -17,6 +17,13 @@
   },
 
   "work": {
-    "title": "Projekty"
+    "title": "Projekty",
+    "projects": {
+      "Alkopoly": "Moja wersja Monopoly dla mnie i moich przyjaciół. Każdy element tej gry przeglądarkowej został stworzony specjalnie dla nas, na przykład nieruchomości pochodzą z naszej wsi. W realizacji tego projektu wykorzystałem Vite, HTML, CSS, JS oraz Node z express.js, ponieważ gra ta jest wieloosobowa.",
+      "Rowerowe Narty": "Rowerowe Narty to gra przeglądarkowa, w której musisz uważać na przeszkody, zdobywać przyspieszenia i monety oraz osiągnąć jak najwyższy możliwy wynik. Cała gra została stworzona w elemencie canvas. Planuję ponownie stworzyć ten projekt w niedalekiej przyszłości, ale tym razem w ReactJS.",
+      "graboga.pl": "W mojej szkole stworzyłem grę przeglądarkową, w której możesz rysować karty z obrazkami nauczycieli i grać w mini gry, takie jak clicker. Dzięki temu projektowi nauczyłem się wiele o Front-Endzie i Back-Endzie.",
+      "Scam and Run": "Strona internetowa dla prostego sklepu internetowego typu dropshipping. Posiada system logowania i opinii, funkcje koszyka oraz panel administracyjny. Zabezpieczyłem tę stronę przed atakami SQL Injection, więc jest bezpieczna.",
+      "Debt Tracker": "Aplikacja internetowa do śledzenia twoich dłużników wykonana przy użyciu ReactJS. Na razie dostępne są opcje dodawania, usuwania i edycji dłużników. Strona internetowa ma tryb ciemny i jasny oraz dwie opcje językowe."
+    }
   }
 }

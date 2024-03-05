@@ -5,6 +5,8 @@
   color: var(--clr-light);
   text-transform: uppercase;
   font-size: var(--font-md);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav__btn {
@@ -13,4 +15,26 @@
   font-size: var(--font-lg);
   margin: 1em;
   z-index: 999;
+}
+
+.project__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 0.7;
+  font-size: var(--font-2xl);
+  filter: grayscale(100%);
+}
+
+.project__btn:hover {
+  filter: grayscale(0);
+}
+
+.next-btn {
+  right: 0;
+}
+
+.prev-btn {
+  left: 0;
 }

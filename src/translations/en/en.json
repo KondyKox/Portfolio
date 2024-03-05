@@ -17,6 +17,13 @@
   },
 
   "work": {
-    "title": "Projects"
+    "title": "Projects",
+    "projects": {
+      "Alkopoly": "My version of Monopoly for me and my friends. Every element of this browser game is made for us, for example properties are from our village. Doing this I use Vite, HTML, CSS, JS and Node with express.js, because this game has a multiplayer.",
+      "Rowerowe Narty": "Rowerowe Narty is a browser game where you have to watch out on obstacles, get boosts and coins and reach the highest score possible. Whole game is made in canvas element. I’m planning made this project again in near future but in ReactJS.",
+      "graboga.pl": "In my school I made browser game where you can draw cards with pictures of teachers and play some mini games like clicker. Doing this I’ve learned a lot of Front-End and Back-End.",
+      "Scam and Run": "Website for a simple dropshipping web store. It has login and reviews system, cart functions and admin panel. I made this page secured from SQL Injections so it’s safe.",
+      "Debt Tracker": "WEb app for tracking your debtors made by using ReactJS. For now there’re options to add, delete and edit your debtors. Website has dark ang light mode and 2 languages options."
+    }
   }
 }
