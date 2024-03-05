@@ -55,11 +55,19 @@ const Work = ({ t }) => {
             <ul className="main__project__links">
               {Object.entries(mainProject.links).map(([key, link], index) => (
                 <li key={index} className="main__project__links-list">
-                  <a href={link} target="_blank" className="main__project__link">
+                  <a
+                    href={link}
+                    target="_blank"
+                    className="main__project__link"
+                  >
                     {key === "github" ? (
-                      <img src="./links/github.png" alt="GitHub" />
+                      <img
+                        src="./links/github.png"
+                        alt="GitHub"
+                        loading="lazy"
+                      />
                     ) : (
-                      <img src="./links/web.png" alt="Website" />
+                      <img src="./links/web.png" alt="Website" loading="lazy" />
                     )}
                   </a>
                 </li>
@@ -96,6 +104,7 @@ const Work = ({ t }) => {
               <img
                 src={project.logo}
                 alt={project.name}
+                loading="lazy"
                 onClick={() => handleMainProjectChange(index)}
               />
             </div>

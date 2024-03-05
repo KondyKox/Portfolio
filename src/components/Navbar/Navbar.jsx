@@ -27,6 +27,8 @@ const Navbar = ({ t, language, setLanguage }) => {
     setMenuOpen(!isMenuOpen);
   };
 
+  // 💡
+
   return (
     <header className="container">
       {/* Mobile navbar */}
@@ -56,12 +58,14 @@ const Navbar = ({ t, language, setLanguage }) => {
                 <img
                   src="./flags/en.png"
                   alt="English"
+                  loading="lazy"
                   onClick={() => changeLanguage("en")}
                   className={language === "en" ? "active" : null}
                 />
                 <img
                   src="./flags/pl.png"
                   alt="Polski"
+                  loading="lazy"
                   onClick={() => changeLanguage("pl")}
                   className={language === "pl" ? "active" : null}
                 />
@@ -89,12 +93,14 @@ const Navbar = ({ t, language, setLanguage }) => {
             <img
               src="./flags/en.png"
               alt="English"
+              loading="lazy"
               onClick={() => changeLanguage("en")}
               className={language === "en" ? "active" : null}
             />
             <img
               src="./flags/pl.png"
               alt="Polski"
+              loading="lazy"
               onClick={() => changeLanguage("pl")}
               className={language === "pl" ? "active" : null}
             />

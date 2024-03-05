@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section id="hero" className="container hero">
       <div className="hero__img">
-        <img src="./hero.jpg" alt="Me :)" />
+        <img src="./hero.jpg" alt="Me :)" loading="lazy" />
       </div>
       <div className="hero__content">
         <h2 className="hero__subtitle">Konrad Ciesielski</h2>
@@ -17,14 +17,14 @@ const Hero = () => {
             target="_blank"
             className="hero__link"
           >
-            <img src="./links/github.png" alt="GitHub" />
+            <img src="./links/github.png" alt="GitHub" loading="lazy" />
           </a>
           <a
             href="https://www.linkedin.com/in/konrad-ciesielski/"
             target="_blank"
             className="hero__link"
           >
-            <img src="./links/linkedin.png" alt="LinkedIn" />
+            <img src="./links/linkedin.png" alt="LinkedIn" loading="lazy" />
           </a>
         </div>
       </div>
