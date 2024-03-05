@@ -9,7 +9,6 @@ const About = ({ t }) => {
         <p className="about__description">{t("about.description.intro")}</p>
         <p className="about__description">{t("about.description.skills")}</p>
         <p className="about__description">{t("about.description.goals")}</p>
-        <p className="about__description">{t("about.description.contact")}</p>
 
         <Title text={t("about.tech")} parentClass="about" isSubtitle={true} />
         <div className="about__ul-container">
