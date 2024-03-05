@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./pages/Hero/Hero";
 import About from "./pages/About/About";
 import Work from "./pages/Work/Work";
+import Footer from "./components/Footer/Footer";
 
 // Get language from local storage
 const getLanguage = () => {
@@ -29,6 +30,7 @@ const App = () => {
         <Hero />
         <About t={t} />
         <Work t={t} />
+        <Footer t={t} />
       </main>
     </I18nextProvider>
   );

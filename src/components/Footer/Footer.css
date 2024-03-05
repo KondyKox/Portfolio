@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--clr-darker);
+  padding: 0 1em 1em;
+}
+
+.footer__description {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.footer__link {
+  padding: 0.25em;
+}
+
+.footer__link img {
+  max-width: 3em;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0.25em;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__link img:hover {
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.5em var(--clr-aqua));
+}

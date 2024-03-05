@@ -11,6 +11,34 @@
   color: var(--clr-green);
 }
 
+.hero__subtitle,
+.hero__title {
+  text-align: center;
+  padding: 0.25em;
+}
+
+.hero__subtitle {
+  font-size: var(--font-xl);
+  font-weight: 700;
+}
+
+.hero__title {
+  font-size: var(--font-2xl);
+  font-weight: 900;
+  background: var(--clr-gradient);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer__subtitle {
+  background: var(--clr-gradient);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
 /* md */
 @media (min-width: 768px) {
   .title {
