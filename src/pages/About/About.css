@@ -31,13 +31,6 @@
   text-align: justify;
 }
 
-.about__subtitle {
-  font-size: var(--font-lg);
-  padding: 0.25em;
-  margin-top: 1em;
-  color: var(--clr-green);
-}
-
 .about__ul-container {
   display: flex;
   justify-content: center;
@@ -69,10 +62,6 @@
 
 /* md */
 @media (min-width: 768px) {
-  .about__subtitle {
-    font-size: var(--font-xl);
-  }
-
   .about__img img {
     max-width: 35em;
   }
