@@ -30,7 +30,7 @@ const Navbar = ({ t, language, setLanguage }) => {
   return (
     <header className="container">
       {/* Mobile navbar */}
-      {windowWidth <= 768 ? (
+      {windowWidth < 768 ? (
         <>
           <Button
             text={"☰"}
