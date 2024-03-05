@@ -3,7 +3,7 @@ import "./Navbar.css";
 import i18n from "../../i18n";
 import Button from "../Button/Button";
 
-const Navbar = ({ t, language, setLanguage }) => {
+const Navbar = ({ t, language, setLanguage, isDarkTheme, setTheme }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -54,6 +54,15 @@ const Navbar = ({ t, language, setLanguage }) => {
                   </li>
                 </ul>
               </div>
+              <div className="theme-toggle">
+                <Button
+                  text={"💡"}
+                  className={`theme-toggle-btn ${
+                    !isDarkTheme ? "active" : null
+                  }`}
+                  onClick={setTheme}
+                />
+              </div>
               <div className="nav__languages">
                 <img
                   src="./flags/en.png"
@@ -88,6 +97,13 @@ const Navbar = ({ t, language, setLanguage }) => {
                 <a href="#contact">{t("navbar.contact")}</a>
               </li>
             </ul>
+          </div>
+          <div className="theme-toggle">
+            <Button
+              text={"💡"}
+              className={`theme-toggle-btn ${!isDarkTheme ? "active" : null}`}
+              onClick={setTheme}
+            />
           </div>
           <div className="nav__languages">
             <img

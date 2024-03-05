@@ -56,6 +56,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.light-theme {
+  --clr-dark: #f1f1e9;
+  --clr-darker: #F0F8FF;
+  --clr-light: #15171b;
+  --clr-green: #2772db;
+}
+
 body {
   font-family: "General Sans", sans-serif;
   background: var(--clr-dark);

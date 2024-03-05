@@ -50,6 +50,13 @@ nav {
   color: var(--clr-blue);
 }
 
+.theme-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+}
+
 .nav__languages {
   display: flex;
   justify-content: center;
@@ -78,6 +85,10 @@ nav {
 
   .nav__item a:hover {
     color: var(--clr-blue);
+  }
+
+  .theme-toggle {
+    padding: 0 1em;
   }
 
   .nav__languages {

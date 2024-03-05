@@ -13,9 +13,16 @@ const getLanguage = () => {
   return storedLanguage;
 };
 
+// Get theme from local storage
+const getTheme = () => {
+  const isDarkTheme = localStorage.getItem("isDarkTheme") || true;
+  return isDarkTheme;
+};
+
 const App = () => {
   const { t } = useTranslation();
   const [language, setLanguage] = useState(getLanguage());
+  const [isDarkTheme, setDarkTheme] = useState(getTheme());
 
   useEffect(() => {
     const language = getLanguage();
@@ -23,9 +30,23 @@ const App = () => {
     setLanguage(language);
   }, []);
 
+  useEffect(() => {
+    document.body.classList.toggle("light-theme", !isDarkTheme);
+  }, [isDarkTheme]);
+
+  const handleChangeTheme = () => {
+    setDarkTheme(!isDarkTheme);
+  };
+
   return (
     <I18nextProvider i18n={i18n}>
-      <Navbar t={t} language={language} setLanguage={setLanguage} />
+      <Navbar
+        t={t}
+        language={language}
+        setLanguage={setLanguage}
+        isDarkTheme={isDarkTheme}
+        setTheme={handleChangeTheme}
+      />
       <main>
         <Hero />
         <About t={t} />

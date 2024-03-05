@@ -17,6 +17,19 @@
   z-index: 999;
 }
 
+.theme-toggle-btn {
+  filter: grayscale(100%);
+}
+
+.theme-toggle-btn.active {
+  filter: grayscale(0);
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.5);
+  filter: grayscale(0) drop-shadow(0 0 0.5em var(--clr-blue));
+}
+
 .project__btn {
   position: absolute;
   top: 50%;
