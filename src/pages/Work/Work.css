@@ -129,7 +129,8 @@
 }
 
 .alkopoly img {
-  max-width: none;
+  max-width: 20em;
+  padding: 0;
 }
 
 /* md */
@@ -161,6 +162,10 @@
     grid-column-start: 1;
     grid-column-end: 3;
   }
+
+  .alkopoly img {
+    padding: 0 0.25em;
+  }
 }
 
 /* lg */
@@ -176,5 +181,9 @@
 
   .work__projects-list {
     gap: 1em 2.5em;
+  }
+
+  .alkopoly img {
+    padding: 0 1em;
   }
 }
