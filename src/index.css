@@ -24,10 +24,6 @@
   --color-text-tint-green: #16a34a; /* backend */
   --color-bg-tint-violet: #f3eefe;
   --color-text-tint-violet: #7c3aed; /* game dev */
-
-  /* spacing/radius */
-  --radius: 8px;
-  --radius-lg: 12px;
 }
 
 /* Dark mode – media query */

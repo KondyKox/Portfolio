@@ -2,7 +2,7 @@ const ExperienceSection = () => {
   return (
     <section className="border-section">
       <h3 className="section-header">Experience</h3>
-      <div className="border-border rounded-2xl border-2 p-4">
+      <div className="border-border rounded-2xl border-2 p-4 bg-surface-2">
         <div className="flex justify-between">
           <h4 className="text-lg font-bold">Software Developer</h4>
           <span className="text-sm text-text-muted">present</span>
