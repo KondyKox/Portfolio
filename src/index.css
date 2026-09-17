@@ -71,3 +71,11 @@
   --color-bg-tint-violet: rgba(124, 58, 237, 0.18);
   --color-text-tint-violet: #b794f6;
 }
+
+.section-header {
+  @apply font-bold mb-4 text-2xl;
+}
+
+.border-section {
+  @apply pb-6 border-b-2 border-border-strong;
+}
