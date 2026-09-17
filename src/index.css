@@ -1,105 +1,73 @@
-/* xs */
-/* @media (min-width: 475px) {} */
+@import "tailwindcss";
 
-/* sm */
-/* @media (min-width: 640px) {} */
+@theme {
+  /* powierzchnie */
+  --color-surface-0: #ffffff; /* tło strony */
+  --color-surface-1: #f7f8f9; /* awatar, delikatne tło */
+  --color-surface-2: #f9fafb; /* karty (projekty, doświadczenie) */
 
-/* md */
-/* @media (min-width: 768px) {} */
+  /* obramowania */
+  --color-border: #e5e7eb;
+  --color-border-strong: #cbd5e1;
 
-/* lg */
-/* @media (min-width: 1024px) {} */
+  /* tekst */
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #9ca3af;
+  --color-text-accent: #1f4e5f; /* główny akcent marki */
+  --color-fill-accent: #1f4e5f; /* przyciski, kropka "dziś" na timeline */
 
-/* xl */
-/* @media (min-width: 1280px) {} */
+  /* tagi umiejętności — 3 grupy */
+  --color-bg-tint-blue: #eaf2ff;
+  --color-text-tint-blue: #2563eb; /* frontend */
+  --color-bg-tint-green: #eafbf1;
+  --color-text-tint-green: #16a34a; /* backend */
+  --color-bg-tint-violet: #f3eefe;
+  --color-text-tint-violet: #7c3aed; /* game dev */
 
-/* 2xl */
-/* @media (min-width: 1536px) {} */
-
-:root {
-  --clr-dark: #393e46;
-  --clr-darker: #15171b;
-  --clr-light: #f1f1e9;
-  --clr-blue: #2772db;
-  --clr-green: #88ee86;
-  --clr-aqua: #00dab5;
-  --clr-gradient: linear-gradient(
-    90deg,
-    #2772db,
-    #009df2,
-    #00bfe1,
-    #00dab5,
-    #88ee86,
-    #f9f871
-  );
-
-  --font-sm: 0.775rem;
-  --font-md: 1rem;
-  --font-lg: 1.25rem;
-  --font-xl: 1.5rem;
-  --font-2xl: 1.75rem;
-  --font-3xl: 2rem;
-  --font-4xl: 2.5rem;
-  --font-5xl: 3rem;
-  --font-6xl: 4rem;
-  --font-7xl: 4.5rem;
-  --font-10xl: 10rem;
+  /* spacing/radius */
+  --radius: 8px;
+  --radius-lg: 12px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Dark mode – media query */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-surface-0: #0f1115;
+    --color-surface-1: #171a21;
+    --color-surface-2: #1b1e26;
+    --color-border: #2a2e37;
+    --color-border-strong: #3a3f4b;
+    --color-text-primary: #f3f4f6;
+    --color-text-secondary: #a1a8b3;
+    --color-text-muted: #6b7280;
+    --color-text-accent: #5ec8db;
+    --color-fill-accent: #5ec8db;
+    --color-bg-tint-blue: rgba(37, 99, 235, 0.16);
+    --color-text-tint-blue: #7fb2ff;
+    --color-bg-tint-green: rgba(22, 163, 74, 0.16);
+    --color-text-tint-green: #6fe3a0;
+    --color-bg-tint-violet: rgba(124, 58, 237, 0.18);
+    --color-text-tint-violet: #b794f6;
+  }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-.light-theme {
-  --clr-dark: #f1f1e9;
-  --clr-darker: #F0F8FF;
-  --clr-light: #15171b;
-  --clr-green: #2772db;
-}
-
-body {
-  font-family: "General Sans", sans-serif;
-  background: var(--clr-dark);
-  color: var(--clr-light);
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: var(--clr-light);
-}
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-/* SCROLLBAR */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--clr-dark);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--clr-green);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--clr-aqua);
+/* ręczny toggle - nadpisuje media query */
+[data-mode="dark"] {
+  --color-surface-0: #0f1115;
+  --color-surface-1: #171a21;
+  --color-surface-2: #1b1e26;
+  --color-border: #2a2e37;
+  --color-border-strong: #3a3f4b;
+  --color-text-primary: #f3f4f6;
+  --color-text-secondary: #a1a8b3;
+  --color-text-muted: #6b7280;
+  --color-text-accent: #5ec8db;
+  --color-fill-accent: #5ec8db;
+  --color-bg-tint-blue: rgba(37, 99, 235, 0.16);
+  --color-text-tint-blue: #7fb2ff;
+  --color-bg-tint-green: rgba(22, 163, 74, 0.16);
+  --color-text-tint-green: #6fe3a0;
+  --color-bg-tint-violet: rgba(124, 58, 237, 0.18);
+  --color-text-tint-violet: #b794f6;
 }
