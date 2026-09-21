@@ -4,7 +4,7 @@ import { OTHER_PROJECTS, SELECTED_PROJECTS } from "../constants/projects";
 const ProjectsSection = () => {
   return (
     <>
-      <section className="border-section">
+      <section className="border-section" id="projects">
         <h3 className="section-header">Selected projects</h3>
 
         <div className="flex flex-col gap-2 lg:max-w-2/3">

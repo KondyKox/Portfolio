@@ -1,6 +1,6 @@
 const ExperienceSection = () => {
   return (
-    <section className="border-section">
+    <section className="border-section" id="experience">
       <h3 className="section-header">Experience</h3>
       <div className="border-border rounded-2xl border-2 p-4 bg-surface-2 lg:max-w-2/3">
         <div className="flex justify-between">

@@ -20,7 +20,7 @@ const GROUP_STYLES: Record<
 
 const SkillsSection = () => {
   return (
-    <section className="border-section">
+    <section className="border-section" id="skills">
       <h3 className="font-bold mb-4 text-2xl">Skills</h3>
 
       <div className="space-y-3">

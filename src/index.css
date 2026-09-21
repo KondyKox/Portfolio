@@ -28,7 +28,7 @@
 
 /* Dark mode – media query */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-mode="light"]) {
     --color-surface-0: #0f1115;
     --color-surface-1: #171a21;
     --color-surface-2: #1b1e26;
@@ -49,7 +49,7 @@
 }
 
 /* ręczny toggle - nadpisuje media query */
-[data-mode="dark"] {
+:root[data-mode="dark"] {
   --color-surface-0: #0f1115;
   --color-surface-1: #171a21;
   --color-surface-2: #1b1e26;
