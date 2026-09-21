@@ -1,12 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="./logo.png" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Konrad Ciesielski</title>
-    <script type="module" crossorigin src="./assets/index-DEr7YIzE.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-LsX57Wwy.css">
+
+    <!-- Primary -->
+    <meta
+      name="description"
+      content="Konrad Ciesielski — Junior software developer building web apps and games. React, TypeScript, Node.js, and Unity/C# projects, portfolio and CV in one place."
+    />
+    <meta name="author" content="Konrad Ciesielski" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://kondykox.github.io/Portfolio/" />
+
+    <!-- Open Graph (Facebook, LinkedIn, Discord itp.) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Konrad Ciesielski — Junior Software Developer"
+    />
+    <meta
+      property="og:description"
+      content="Web apps and games built end to end — React, TypeScript, Node.js, Unity/C#."
+    />
+    <meta property="og:image" content="./og-image.png" />
+    <meta property="og:url" content="https://kondykox.github.io/Portfolio/" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Konrad Ciesielski — Junior Software Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Web apps and games built end to end — React, TypeScript, Node.js, Unity/C#."
+    />
+    <meta name="twitter:image" content="./og-image.png" />
+
+    <!-- Theme color paska przeglądarki (mobile) -->
+    <meta
+      name="theme-color"
+      content="#ffffff"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#0f1115"
+      media="(prefers-color-scheme: dark)"
+    />
+
+    <script>
+      (function () {
+        var saved = localStorage.getItem("theme");
+        var theme =
+          saved ||
+          (window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+        document.documentElement.setAttribute("data-mode", theme);
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-Ca2FDe85.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-I398R3Tt.css" />
   </head>
   <body>
     <div id="root"></div>
