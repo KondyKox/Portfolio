@@ -5,13 +5,13 @@ const BUTTONS_LINKS = [
   {
     text: "Download CV",
     icon: Download,
-    link: "/cv-konrad-ciesielski.pdf", // TODO: REPLACE
+    link: "/Konrad_Ciesielski_CV.pdf", // TODO: REPLACE
     download: true,
   },
   {
     text: "Contact",
     icon: Mail,
-    link: "mailto:your@email.com", // TODO: REPLACE
+    link: "mailto:kciesielski2003@gmail.com",
     download: false,
   },
   {
