@@ -23,6 +23,7 @@ const ProjectsSection = () => {
                 <p className="text-sm">{project.description}</p>
                 <a
                   href={project.link}
+                  aria-label={project.name}
                   className="flex items-center gap-2 text-xs text-text-accent"
                 >
                   See project here <SquareArrowOutUpRight size={12} />
