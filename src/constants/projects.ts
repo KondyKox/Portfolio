@@ -51,14 +51,4 @@ export const OTHER_PROJECTS = [
     description: "Card game, JS.",
     icon: Gamepad2,
   },
-  {
-    name: "Alkopoly",
-    description: "Monopoly meets alcohol, built with TypeScript + React.",
-    icon: Dices,
-  },
-  {
-    name: "graboga.pl",
-    description: "Card game, JS.",
-    icon: Gamepad2,
-  },
 ];

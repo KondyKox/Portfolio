@@ -42,7 +42,7 @@ const Hero = () => {
         TypeScript/React on the frontend, Node/SQL on the backend, C# in Unity.
       </p>
 
-      <div className="flex items-stretch gap-2 md:w-1/2">
+      <div className="flex flex-wrap items-stretch gap-2 md:w-1/2">
         {BUTTONS_LINKS.map((btn) => {
           const Icon = btn.icon;
           return (
