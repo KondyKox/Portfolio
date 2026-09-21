@@ -5,7 +5,7 @@ const BUTTONS_LINKS = [
   {
     text: "Download CV",
     icon: Download,
-    link: "/Konrad_Ciesielski_CV.pdf", // TODO: REPLACE
+    link: "/Konrad_Ciesielski_CV.pdf",
     download: true,
   },
   {

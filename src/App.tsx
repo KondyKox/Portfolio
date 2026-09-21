@@ -1,4 +1,5 @@
 import Contact from "./components/Contacts";
+import Education from "./components/Education";
 import ExperienceSection from "./components/ExperienceSection";
 import Hero from "./components/Hero";
 import JourneyTimeline from "./components/JourneyTimeline";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <SkillsSection />
       <ExperienceSection />
+      <Education />
       <JourneyTimeline />
       <ProjectsSection />
       <Contact />
