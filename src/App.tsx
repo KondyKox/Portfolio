@@ -1,6 +1,7 @@
 import ExperienceSection from "./components/ExperienceSection";
 import Hero from "./components/Hero";
 import JourneyTimeline from "./components/JourneyTimeline";
+import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <SkillsSection />
       <ExperienceSection />
       <JourneyTimeline />
+      <ProjectsSection />
     </main>
   );
 }

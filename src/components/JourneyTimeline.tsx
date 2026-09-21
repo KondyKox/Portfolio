@@ -2,7 +2,7 @@ import { journey } from "../constants/journey";
 
 const JourneyTimeline = () => {
   return (
-    <section>
+    <section className="border-section">
       <h3 className="section-header">Journey Timeline</h3>
 
       <div className="relative">
