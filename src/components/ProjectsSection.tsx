@@ -12,7 +12,7 @@ const ProjectsSection = () => {
             const Icon = project.icon;
 
             return (
-              <div className="bg-surface-2 p-4 rounded-2xl flex flex-col gap-2">
+              <div className="bg-surface-2 border-border border-2 p-4 rounded-2xl flex flex-col gap-2">
                 <div key={project.name}>
                   <h4 className="flex items-center gap-2 font-bold text-lg">
                     <Icon size={16} className="text-text-accent" />
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
             return (
               <div
                 key={project.name}
-                className="bg-surface-2 p-4 rounded-2xl flex flex-col gap-2"
+                className="bg-surface-2 p-4 rounded-2xl flex flex-col gap-2 border-border border-2"
               >
                 <h4 className="flex items-center gap-2 font-bold text-lg">
                   <Icon size={16} className="text-text-accent" />

@@ -24,7 +24,7 @@ const Education = () => {
     <section className="border-section" id="education">
       <h3 className="section-header">Education</h3>
 
-      <div className="bg-surface-2 p-4 rounded-2xl flex flex-col gap-2 lg:max-w-2/3">
+      <div className="bg-surface-2 p-4 rounded-2xl flex flex-col gap-2 lg:max-w-2/3 border-border border-2">
         <div className="flex justify-between items-baseline gap-2">
           <p className="font-bold text-lg">{EDUCATION.primary.school}</p>
           <span className="text-xs text-text-muted whitespace-nowrap">
