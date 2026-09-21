@@ -1,5 +1,5 @@
 import { Download, Mail } from "lucide-react";
-import GithubIcon from "./GitHubIcon";
+import { FaGithub } from "react-icons/fa";
 
 const BUTTONS_LINKS = [
   {
@@ -16,7 +16,7 @@ const BUTTONS_LINKS = [
   },
   {
     text: "GitHub",
-    icon: GithubIcon,
+    icon: FaGithub,
     link: "https://github.com/KondyKox",
     download: false,
   },
